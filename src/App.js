@@ -1,9 +1,13 @@
 import { CadastroPessoa } from "./components/CadastroPessoa";
+import Button  from './components/Button';
 
 function App() {
   return (
-    <CadastroPessoa/>
-  );
+    <>
+      <CadastroPessoa/>
+      <Button/>
+    </>
+  )
 }
 
 export default App;
