@@ -1,15 +1,17 @@
+import { CardRenderização } from "./styles"
+
 function RenderizacaoLista() {
   const cursos = ["React", "Angular", "Vue"];
 
   return (
-    <>
-      <h1>Renderização de Lista</h1>
+    <CardRenderização>
+      <h2>Renderização de Lista</h2>
       {
         cursos.map((curso, index) => (
           <p key={index}>{curso}</p>
         ))
       }
-    </>
+    </CardRenderização>
   )
 }
 export default RenderizacaoLista;

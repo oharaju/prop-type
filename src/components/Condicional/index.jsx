@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { CardCondicional } from "./styles"
 
 function Condicional() {
   const [email, setEmail] = useState("");
@@ -15,7 +16,7 @@ function Condicional() {
   }
 
   return (
-    <>
+    <CardCondicional>
       <h2>Renderização Condicional</h2>
       <form>
         <input type="email"
@@ -30,7 +31,7 @@ function Condicional() {
           <button onClick={clearEmail}>Limpar Email</button>
         </div>
       )}
-    </>
+    </CardCondicional>
   )
 }
 
