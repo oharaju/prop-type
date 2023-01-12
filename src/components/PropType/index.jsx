@@ -1,6 +1,6 @@
-import DadosPessoa from "../DadosPessoa"
+import DadosPessoa from "./DadosPessoa"
 
-export const CadastroPessoa = () => (
+export const PropType = () => (
   <div>
     <h1>Prop Type</h1>
     <ul>

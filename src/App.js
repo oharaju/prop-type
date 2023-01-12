@@ -1,12 +1,12 @@
-import { CadastroPessoa } from "./components/CadastroPessoa";
-import Button  from './components/Button';
+import { PropType } from "./components/PropType";
+import Button  from './components/PropButton/Button';
 import Condicional from './components/Condicional'
 import RenderizacaoLista from './components/RenderizacaoLista'
 
 function App() {
   return (
     <>
-      <CadastroPessoa/>
+      <PropType/>
       <Button/>
       <Condicional/>
       <RenderizacaoLista />
